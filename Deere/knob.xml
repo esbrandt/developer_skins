@@ -3,6 +3,7 @@
   Description:
     A standard knob.
   Variables:
+    group: The group for the controls.
     control: The control to connect to.
 -->
 <Template>
