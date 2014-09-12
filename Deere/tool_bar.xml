@@ -172,11 +172,11 @@
         <SizePolicy>min,min</SizePolicy>
         <Layout>vertical</Layout>
         <Children>
-          <Template src="skin:vumeter.xml">
+          <Template src="skin:vumeter-horizontal.xml">
             <SetVariable name="group">[Master]</SetVariable>
             <SetVariable name="control">VuMeterL</SetVariable>
           </Template>
-          <Template src="skin:vumeter.xml">
+          <Template src="skin:vumeter-horizontal.xml">
             <SetVariable name="group">[Master]</SetVariable>
             <SetVariable name="control">VuMeterR</SetVariable>
           </Template>
