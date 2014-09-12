@@ -33,10 +33,6 @@
                   <WidgetGroup>
                     <Layout>horizontal</Layout>
                     <Children>
-                      <Template src="skin:hide_show_button.xml">
-                        <SetVariable name="object_name">LibraryToggle</SetVariable>
-                        <SetVariable name="control">[Library],show_library</SetVariable>
-                      </Template>
                       <SearchBox>
                       </SearchBox>
                     </Children>
