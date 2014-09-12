@@ -47,6 +47,22 @@
         <NumberStates>2</NumberStates>
         <State>
           <Number>0</Number>
+          <Text>+SAMPLERS</Text>
+        </State>
+        <State>
+          <Number>1</Number>
+          <Text>-SAMPLERS</Text>
+        </State>
+        <Connection>
+          <ConfigKey persist="true">[Samplers],show_samplers</ConfigKey>
+        </Connection>
+      </PushButton>
+
+      <PushButton>
+        <Size>50f,20f</Size>
+        <NumberStates>2</NumberStates>
+        <State>
+          <Number>0</Number>
           <Text>2DECK</Text>
         </State>
         <State>

@@ -18,15 +18,11 @@
         <Children>
 
           <!-- Expanded SampleDecks -->
-          <WidgetGroup trigger="[Samplers],show_samplers">
+          <WidgetGroup>
             <ObjectName>SampleDecksExpanded</ObjectName>
             <SizePolicy>me,min</SizePolicy>
             <Layout>horizontal</Layout>
             <Children>
-              <Template src="skin:hide_show_button.xml">
-                <SetVariable name="object_name">SampleDeckToggle</SetVariable>
-                <SetVariable name="control">[Samplers],show_samplers</SetVariable>
-              </Template>
               <Template src="skin:sampler.xml">
                 <SetVariable name="i">1</SetVariable>
               </Template>
@@ -42,26 +38,13 @@
             </Children>
           </WidgetGroup>
 
-          <!-- Collapsed SampleDecks -->
-          <WidgetGroup>
-            <ObjectName>SampleDecksCollapsed</ObjectName>
-            <Layout>horizontal</Layout>
-            <MinimumSize>-1,20</MinimumSize>
-            <MaximumSize>-1,20</MaximumSize>
-            <SizePolicy>me,min</SizePolicy>
-            <Children>
-              <Template src="skin:hide_show_button.xml">
-                <SetVariable name="object_name">SampleDeckToggle</SetVariable>
-                <SetVariable name="control">[Samplers],show_samplers</SetVariable>
-              </Template>
-              <Label>
-                <ObjectName>SectionLabel</ObjectName>
-                <Text>Samplers</Text>
-              </Label>
-            </Children>
-          </WidgetGroup>
         </Children>
+        <Connection>
+          <ConfigKey persist="true">[Samplers],show_samplers</ConfigKey>
+          <BindProperty>visible</BindProperty>
+        </Connection>
       </WidgetStack>
+
     </Children>
     <Connection>
       <ConfigKey persist="true">[Master],show_library</ConfigKey>
