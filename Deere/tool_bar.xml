@@ -10,23 +10,7 @@
     <SizePolicy>me,f</SizePolicy>
     <Children>
       <PushButton>
-        <Size>40f,20f</Size>
-        <NumberStates>2</NumberStates>
-        <State>
-          <Number>0</Number>
-          <Text>-MIXER</Text>
-        </State>
-        <State>
-          <Number>1</Number>
-          <Text>+MIXER</Text>
-        </State>
-        <Connection>
-          <ConfigKey persist="true">[Master],hide_mixer</ConfigKey>
-        </Connection>
-      </PushButton>
-
-      <PushButton>
-        <Size>40f,20f</Size>
+        <Size>50f,20f</Size>
         <NumberStates>2</NumberStates>
         <State>
           <Number>0</Number>
@@ -43,7 +27,23 @@
       </PushButton>
 
       <PushButton>
-        <Size>40f,20f</Size>
+        <Size>50f,20f</Size>
+        <NumberStates>2</NumberStates>
+        <State>
+          <Number>0</Number>
+          <Text>-MIXER</Text>
+        </State>
+        <State>
+          <Number>1</Number>
+          <Text>+MIXER</Text>
+        </State>
+        <Connection>
+          <ConfigKey persist="true">[Master],hide_mixer</ConfigKey>
+        </Connection>
+      </PushButton>
+
+      <PushButton>
+        <Size>50f,20f</Size>
         <NumberStates>2</NumberStates>
         <State>
           <Number>0</Number>
