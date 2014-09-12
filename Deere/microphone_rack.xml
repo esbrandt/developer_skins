@@ -23,10 +23,20 @@
             <Layout>horizontal</Layout>
             <Children>
 
-              <Template src="skin:knob.xml">
-                <SetVariable name="group">[Master]</SetVariable>
-                <SetVariable name="control">duckStrength</SetVariable>
-                <SetVariable name="label">Strength</SetVariable>
+              <Template src="skin:microphone.xml">
+                <SetVariable name="i"></SetVariable>
+              </Template>
+
+              <Template src="skin:microphone.xml">
+                <SetVariable name="i">2</SetVariable>
+              </Template>
+
+              <Template src="skin:microphone.xml">
+                <SetVariable name="i">3</SetVariable>
+              </Template>
+
+              <Template src="skin:microphone.xml">
+                <SetVariable name="i">4</SetVariable>
               </Template>
 
               <PushButton>
@@ -50,20 +60,10 @@
                 </Connection>
               </PushButton>
 
-              <Template src="skin:microphone.xml">
-                <SetVariable name="i"></SetVariable>
-              </Template>
-
-              <Template src="skin:microphone.xml">
-                <SetVariable name="i">2</SetVariable>
-              </Template>
-
-              <Template src="skin:microphone.xml">
-                <SetVariable name="i">3</SetVariable>
-              </Template>
-
-              <Template src="skin:microphone.xml">
-                <SetVariable name="i">4</SetVariable>
+              <Template src="skin:knob.xml">
+                <SetVariable name="group">[Master]</SetVariable>
+                <SetVariable name="control">duckStrength</SetVariable>
+                <SetVariable name="label">Strength</SetVariable>
               </Template>
 
             </Children>
