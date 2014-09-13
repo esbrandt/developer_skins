@@ -314,6 +314,13 @@ WSliderComposed {
   qproperty-layoutAlignment: 'AlignLeft | AlignTop';
 }
 
+#MicrophonesContainer {
+}
+
+#MicrophoneRackExpanded {
+  background-color: steelblue;
+}
+
 #OverviewRow, #VisualRow, #ButtonRow {
   /*qproperty-layoutContentsMargins: rect(0 1 0 1);*/
 }
