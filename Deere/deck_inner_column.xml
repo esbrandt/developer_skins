@@ -29,6 +29,11 @@
           <EmitOnPressAndRelease>true</EmitOnPressAndRelease>
           <ButtonState>LeftButton</ButtonState>
         </Connection>
+        <Connection>
+          <ConfigKey><Variable name="group"/>,beatsync</ConfigKey>
+          <EmitOnPressAndRelease>true</EmitOnPressAndRelease>
+          <ButtonState>RightButton</ButtonState>
+        </Connection>
       </PushButton>
 
       <PushButton>
